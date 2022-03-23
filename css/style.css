@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+
+.descuento{
+    background-color: #1CD1B0;
+}
+
+.heroes{
+    background-color: #00669F;
+}
+
+article{
+    background-color: #F3F3F3;
+    width: 300px;
+}
+
+.batman-bg{
+    height: 193px;
+    background-image: url('../img/batman-bg-ahorasi.jpg');
+}
+
+.batman-perfil{
+    border-radius: 50%;
+}
