@@ -2,24 +2,122 @@
     margin: 0;
 }
 
+body{
+    height: 100vh;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    background-color: gray;
+}
+
+main{
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header{
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+a, p{
+    font-size: 1.6rem;
+}
+
+h1{
+    font-size: 4.7rem;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 3rem;
+    font-weight: 400;
+}
+
 .descuento{
     background-color: #1CD1B0;
+    padding: 1rem;
 }
 
 .heroes{
     background-color: #00669F;
+    padding: 2.8rem;
 }
 
-article{
+section{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.card{
     background-color: #F3F3F3;
-    width: 300px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.batman-bg{
+.card-bg{
     height: 193px;
-    background-image: url('../img/batman-bg-ahorasi.jpg');
+    background-image: url('../img/card-bg-1.jpg');
 }
 
-.batman-perfil{
+.card-bg img{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.card-profile{
     border-radius: 50%;
+    margin-top: -60px;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card h3{
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.card p{
+    padding: 0 1.7rem 3.7rem;
+    text-align: left;
+}
+
+.card a{
+    background-color: #00669F;
+    padding: 1.5rem 3.7rem;
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #00669F;
+    display: flex;
+}
+
+footer span{
+    font-size: 1.6rem;
+    color: white;
+    padding: 1.6rem;
 }
