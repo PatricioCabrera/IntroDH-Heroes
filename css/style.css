@@ -75,6 +75,10 @@ section{
     background-image: url('../img/card-bg-1.jpg');
 }
 
+.card:nth-child(2) .card-bg{
+    background-image: url('../img/card-bg-2.jpg');
+}
+
 .card-bg img{
     position: relative;
     left: 20px;
